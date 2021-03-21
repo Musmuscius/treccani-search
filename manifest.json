@@ -13,7 +13,6 @@
       "name": "Treccani",
       "search_url": "https://www.treccani.it/enciclopedia/?q={searchTerms}",
       "keyword": "ccc",
-    //  "favicon_url": "https://www.discogs.com/favicon.ico",
       "is_default": false,
       "encoding": "UTF-8"
     }
