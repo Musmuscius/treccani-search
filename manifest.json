@@ -1,0 +1,22 @@
+{
+  "manifest_version": 1,
+  "name": "Treccani search engine",
+  "description": "Adds a search engine that searches treccani.it",
+  "version": "1.0",
+  "browser_specific_settings": {
+    "gecko": {
+      "strict_min_version": "55"
+    }
+  },
+  "chrome_settings_overrides": {
+    "search_provider": {
+      "name": "Treccani",
+      "search_url": "https://www.treccani.it/enciclopedia/?q={searchTerms}",
+      "keyword": "ccc",
+    //  "favicon_url": "https://www.discogs.com/favicon.ico",
+      "is_default": false,
+      "encoding": "UTF-8"
+    }
+  }
+
+}
